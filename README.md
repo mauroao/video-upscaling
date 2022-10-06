@@ -19,3 +19,9 @@
     ```
     ffmpeg -i video.mp4  -i audio.mp4  -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 output.mp4
     ```
+  
+    
+  # temp
+  
+  https://www.roelpeters.be/python-run-shell-commands-with-the-subprocess-package/
+  https://superuser.com/questions/841235/how-do-i-use-ffmpeg-to-get-the-video-resolution
