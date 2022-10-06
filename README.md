@@ -23,5 +23,5 @@
     
   # temp
   
-  https://www.roelpeters.be/python-run-shell-commands-with-the-subprocess-package/
-  https://superuser.com/questions/841235/how-do-i-use-ffmpeg-to-get-the-video-resolution
+  - https://www.roelpeters.be/python-run-shell-commands-with-the-subprocess-package/
+  - https://superuser.com/questions/841235/how-do-i-use-ffmpeg-to-get-the-video-resolution
