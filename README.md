@@ -25,8 +25,14 @@
   
 - https://www.roelpeters.be/python-run-shell-commands-with-the-subprocess-package/
 - https://superuser.com/questions/841235/how-do-i-use-ffmpeg-to-get-the-video-resolution
-- ffprobe -v error -select_streams v:0 -show_entries stream=width,height,codec_name,profile,level,bit_rate,r_frame_rate  -of json file.mp4
-- ffprobe -v error -show_streams -select_streams v:0 -of json file.mp4
 - https://stackoverflow.com/questions/37088517/remove-sequentially-duplicate-frames-when-using-ffmpeg
 - https://avpres.net/FFmpeg/4-3_16-9
 - https://avpres.net/FFmpeg/
+
+```
+ffprobe -v error -select_streams v:0 -show_entries stream=width,height,codec_name,profile,level,bit_rate,r_frame_rate  -of json file.mp4
+```
+
+```
+ffprobe -v error -show_streams -select_streams v:0 -of json file.mp4
+```
