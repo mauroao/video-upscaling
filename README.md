@@ -36,3 +36,8 @@ ffprobe -v error -select_streams v:0 -show_entries stream=width,height,codec_nam
 ```
 ffprobe -v error -show_streams -select_streams v:0 -of json file.mp4
 ```
+
+Encode with handware asceleration:
+```
+ffmpeg -hide_banner -i video.mp4 -vcodec h264_nvenc -r 30 -preset p6 -profile baseline -level 40 -cq 23 output.mp4
+```
